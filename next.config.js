@@ -1,4 +1,4 @@
-const path = require('path');
+//const path = require('path');
 const withSass = require('@zeit/next-sass');
 
 module.exports = withSass({
@@ -8,9 +8,9 @@ module.exports = withSass({
   })
 
 module.exports = {
-  sassOptions: {
+  /*sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
-  },
+  },*/
   future: {
     webpack5: true,
   },
