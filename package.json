@@ -15,7 +15,7 @@
     "dependencies": {
         "@types/node": "^15.0.2",
         "@types/react": "^17.0.5",
-        "@zeit/next-sass": "^1.0.1",
+        "@zeit/next-sass": "^1.0.0",
         "gsap": "^3.6.1",
         "next": "^10.2.0",
         "react": "^17.0.2",
@@ -42,6 +42,7 @@
         "jest-watch-typeahead": "^0.6.3",
         "lint-staged": "^10.5.4",
         "prettier": "^2.2.1",
-        "react-test-renderer": "^17.0.2"
+        "react-test-renderer": "^17.0.2",
+        "tsconfig-paths-webpack-plugin": "^3.5.1"
     }
 }
