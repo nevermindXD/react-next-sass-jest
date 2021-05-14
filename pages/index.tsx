@@ -13,7 +13,7 @@ const IndexPage: NextPage<Props> = ({ launch }) => {
   const date = new Date(launch.timestamp)
   return (
     <main>
-      <h1>Next SpaceX Launc: {launch.mission}</h1>
+      <h1>Next SpaceX Launch: {launch.mission}</h1>
       <p>
         {launch.rocket} will take off from {launch.site} on {date.toDateString()}
       </p>
